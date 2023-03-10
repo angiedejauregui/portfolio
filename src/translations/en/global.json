@@ -1,0 +1,37 @@
+{
+  "navbar": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "about": {
+    "hello": "Hi, I'm",
+    "specialization": "Frontend Developer",
+    "aboutMe": "I'm an ambitious and passionate person seeking opportunities to contribute to the success of my team and continue developing myself as a professional.",
+    "CV": "Download CV",
+    "downloadCV": "CVenglish"
+  },
+
+  "skills": {
+    "title": "Skills"
+  },
+
+  "projects": {
+    "title": "Projects",
+    "website": "Website",
+    "calculator": "Calculator",
+    "pomodoroClock": "Pomodoro Clock",
+    "drumMachine": "Drum Machine",
+    "cryptoPrices": "Crypto Prices"
+  },
+
+  "contact": {
+    "title": "Contact Me",
+    "name": "Your Name",
+    "mail": "Your Mail",
+    "message": "Your Message",
+    "send": "Send Message"
+  }
+}

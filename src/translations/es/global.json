@@ -1,0 +1,37 @@
+{
+  "navbar": {
+    "about": "Sobre",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+
+  "about": {
+    "hello": "Hola, soy",
+    "specialization": "Desarrolladora Frontend",
+    "aboutMe": "Soy una persona ambiciosa y apasionada en busca de oportunidades para contribuir al éxito de mi equipo y seguir desarrollándome como profesional.",
+    "CV": "Descargar CV",
+    "downloadCV": "CVespañol"
+  },
+
+  "skills": {
+    "title": "Habilidades"
+  },
+
+  "projects": {
+    "title": "Proyectos",
+    "website": "Sitio Web",
+    "calculator": "Calculadora",
+    "pomodoroClock": "Reloj Pomodoro",
+    "drumMachine": "Caja de Ritmos",
+    "cryptoPrices": "Precios de Criptos"
+  },
+
+  "contact": {
+    "title": "Contáctame",
+    "name": "Tú Nombre",
+    "mail": "Tú Mail",
+    "message": "Tú Mensaje",
+    "send": "Mandar Mensaje"
+  }
+}
