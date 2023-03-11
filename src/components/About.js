@@ -11,8 +11,9 @@ function About(props) {
   };
 
   return (
-    <AboutContainer id="about" className="d-flex justify-content-around">
+    <AboutContainer id="about" className="d-flex justify-content-center gap-5">
       <div>
+
         <h3>{props.t("about.hello")}</h3>
         <h1>Angeles de Jauregui</h1>
         <h3>{props.t("about.specialization")}</h3>
@@ -49,7 +50,7 @@ export default About;
 
 const AboutContainer = styled.section`
   color: white;
-  padding: 12rem 10rem;
+  padding: 12rem 0rem;
   color: ${({ theme }) => theme.text};
   h1 {
     font-size: 50px;
@@ -58,7 +59,7 @@ const AboutContainer = styled.section`
 
   p {
     font-size: 20px;
-    width: 550px;
+    width: 570px;
   }
   #cv {
     background: var(--primary-color);
@@ -98,7 +99,7 @@ const AboutContainer = styled.section`
       transform: rotate(360deg);
     }
   }
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 950px) {
     padding: 8rem 3rem 2rem 3rem;
     flex-direction: column-reverse;
     align-items: center;
@@ -115,7 +116,7 @@ const AboutContainer = styled.section`
     }
     p {
       font-size: 18px;
-      width: auto;
+      width: 400px !important;
     }
     h1,
     h3,
@@ -133,8 +134,5 @@ const AboutContainer = styled.section`
       justify-content: center;
       align-items: center;
     }
-  }
-  @medi screen and (max-width: 720px) {
-    padding: 12rem;
   }
 `;
