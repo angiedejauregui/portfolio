@@ -88,4 +88,13 @@ const ContactContainer = styled.section`
       transform: scale(0.98);
     }
   }
+  @media screen and (max-width: 950px) {
+    form {
+      input,
+      textarea,
+      button {
+        width: 75%;
+      }
+    }
+  }
 `;

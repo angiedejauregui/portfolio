@@ -100,7 +100,7 @@ const AboutContainer = styled.section`
     }
   }
   @media screen and (max-width: 950px) {
-    padding: 8rem 3rem 2rem 3rem;
+    padding: 8rem 1.5rem 2rem 1.5rem;
     flex-direction: column-reverse;
     align-items: center;
     gap: 2.5rem;
@@ -116,7 +116,7 @@ const AboutContainer = styled.section`
     }
     p {
       font-size: 18px;
-      width: 400px !important;
+      margin: 1rem;
     }
     h1,
     h3,

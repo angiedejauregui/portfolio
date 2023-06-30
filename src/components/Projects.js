@@ -45,6 +45,12 @@ function Projects() {
       website: "https://angiedejauregui.github.io/crypto-prices",
       github: "https://github.com/angiedejauregui/crypto-prices",
     },
+    {
+      name: t("projects.bookList"),
+      img: "https://i.postimg.cc/cC3rLNFz/Web-capture-30-6-2023-16337-649cf8fe2bcf4f25f5d48f21-benevolent-gumption-6d0b4d-netlify-app.jpg",
+      website: "https://649cf8fe2bcf4f25f5d48f21--benevolent-gumption-6d0b4d.netlify.app/",
+      github: "https://github.com/angiedejauregui/book-list",
+    }
   ];
 
   return (
